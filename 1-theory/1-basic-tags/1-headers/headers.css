@@ -1,0 +1,47 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: greenyellow;
+    font-family: monospace;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.headers {
+    font-size: 24px;
+}
+
+.headers h1 {
+    margin-bottom: 24px;
+}
+
+.button-link {
+    margin-top: 34px;
+    height: 50px;
+    width: 170px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    background-color: greenyellow;
+    color: black;
+    font-size: 24px;
+    transition: opacity .5s;
+}
+
+.button-link:hover {
+    background-color: #6acd06;
+}
+
+.button-link:active {
+    opacity: .7;
+}
